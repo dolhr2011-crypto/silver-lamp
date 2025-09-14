@@ -8,10 +8,10 @@ const qs = require("querystring");
     var _a;
     // Validate parameters
     const [productId, scheduleId, seatId, webhookUrl] = [
-        "product-id",
-        "schedule-id",
-        "seat-id",
-        "slack-incoming-webhook-url",
+        "211942",
+        "100276",
+        "",
+        "https://discordapp.com/api/webhooks/1416460885144109247/Ferro4WCi9vGe7Ta_Ihia6qlCneaBtFT100D49d-esK6xfOhTPe98Tt8cAyFJjbtijrI",
     ].map((name) => {
         const value = core.getInput(name);
         if (!value) {
